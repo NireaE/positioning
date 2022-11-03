@@ -1,10 +1,12 @@
 /* Global rules */
 
-@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 html {
-    background-color: lightgray;
-    font-family: 'Quicksand', sans-serif;
+    background-image: url('../images/background.jpg');
+
+    font-family: 'Montserrat', sans-serif;
     font-size: 0.95em;
     line-height: 1.5em;
 }
@@ -15,15 +17,25 @@ html {
 }
 
 h1 {
-    font-weight: normal;
+    font-weight:700;
     margin: auto;
     background: #fff;
     line-height: 2.5em;
+}
+/* Added google font to H1 for main pages */
+h1.page-header{
+    font-family: 'Roboto',sans-serif;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius:10px 10px 0 0;   
 }
 
 main.wrapper {
     background-color: white;
     overflow: auto;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius:0 0 10px 10px;  
 }
 
 p {
@@ -37,13 +49,13 @@ h2,h3 {
 }
 
 a {
-    color:darkcyan;
+    color:#84A3B5;
     text-decoration: none;
 }
 
 a:hover {
     color: whitesmoke;
-    background-color: darkcyan;
+    background-color: #84A3B5;
     text-decoration: none;
 }
 
